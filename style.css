@@ -1,5 +1,5 @@
 body {
-    /*margin: auto 0;*/
+    margin: auto 0;
 }
 
 
@@ -38,11 +38,40 @@ body {
 li{
     padding: 20px;
 }
-
+/*TO REMOVE UNDERLINES LISTED ITEMS IN NAVBAR AND CHANGE FONT COLOR */
 a{
     color: #f5f5f6;
     text-decoration:none;
 
+}
+/*COVER*/
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+/*GRID*/
+.grid-wrapper{
+    display:grid;
+    padding:20px;
+    grid-template-columns:repeat(auto-fill, minmax(350px, 1fr));
+}
+/*SIZING IMAGES*/
+.box > img {
+    width: 100%;
+}
+
+.box{
+    background: #444;
+    margin:20px;
+    padding:130px;
+}
+
+/*POSITIONING TEXT OF THE FOOTER IN THE CENTER OF ITS CONTAINER*/
+footer{
+    text-align: center;
 }
 
 .zone:hover {
